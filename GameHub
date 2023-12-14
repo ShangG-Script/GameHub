@@ -1,0 +1,57 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("GameHub 0.1v","BloodTheme")
+
+---Tabs
+
+local Tab1 = window:NewTab("HUB")
+local Tab1Section = Tab1:NewSection("HUB")
+local Tab2 = window:NewTab("DirectGame")
+local Tab2Section = Tab2:NewSection("DirectGame")
+local Tab3 = window:NewTab("Credits")
+local Tab3Section = Tab3:NewSection("Made By AngelUy68")
+Tab3:NewSection("Support By Renijay123451")
+Tab3:NewSection("Country:Philippines")
+Tab3:NewSection("Age:12")
+Tab3:NewSection("YT: ShangG-Script")
+
+---Button
+
+Tab1Section:NewButton("IceHub", "4RNHUB", function()
+--IceHub
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+        print("Clicked")
+end)
+
+Tab1Section:NewButton("GigaChad", "4RNHUB", function()
+--GigaChad
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Version%20V3.5'))()
+        print("Clicked")
+end)
+
+Tab1Section:NewButton("SussyHub", "BigBobs", function()
+loadstring(game:HttpGet(('https://gist.githubusercontent.com/Nilrogram/8b0c8bd710be142f383c71f79279752c/raw/e4fb01a7de7cd498bb53270d2ad191dfab268a88/FE%2520SussyHub'),true))();
+    print("Clicked")
+end)
+
+---Tabs
+
+local Tab1Section = Tab1:NewSection("Coming Soon")
+
+---Botton
+
+Tab2Section:NewButton("Blade ball", "SpamingLol", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/eng"))()
+    print("Clicked")
+end)
+
+Tab2Section:NewButton("NaturalDisaster", "ForYouhahaha", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
+    print("Clicked")
+end)
+
+---tabs
+
+local Tab2Section = Tab2:NewSection("Coming Soon")
+
